@@ -1,6 +1,6 @@
 package WebDAO::Store::MLDBM;
 
-#$Id: MLDBM.pm 466 2009-02-23 18:17:21Z zag $
+#$Id: MLDBM.pm 509 2009-03-03 19:45:02Z zag $
 
 =head1 NAME
 
@@ -33,7 +33,7 @@ use Data::Dumper;
 use strict 'vars';
 use base 'WebDAO::Store::Storable';
 
-our $VERSION = '1.00';
+our $VERSION = '1.01';
 
 sub load {
     my $self = shift;

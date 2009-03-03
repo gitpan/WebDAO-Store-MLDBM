@@ -1,6 +1,6 @@
 ---
 name: WebDAO-Store-MLDBM
-version: 1.00
+version: 1.01
 author: []
 abstract: Implement session store using MLDBM
 license: perl
@@ -12,7 +12,7 @@ requires:
 provides:
   WebDAO::Store::MLDBM:
     file: lib/WebDAO/Store/MLDBM.pm
-    version: 1.00
+    version: 1.01
 generated_by: Module::Build version 0.3
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
